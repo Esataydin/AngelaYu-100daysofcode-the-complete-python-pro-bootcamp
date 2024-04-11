@@ -1,0 +1,1 @@
+{"access_token": "[YOUR ACCESS TOKEN]]", "token_type": "Bearer", "expires_in": [YOUR_EXPIRES_IN_CREDENTICAL], "scope": "playlist-modify-private", "expires_at": [YOUR_EXPIRES_AT_CREDENTICAL], "refresh_token": "[YOUR_REFRESH_TOKEN]"}

@@ -1,0 +1,18 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+
+{{ super() }}
+<link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+{% endblock %}
+
+
+{% block title %}Result{% endblock %}
+
+{% block content %}
+<h1>Result</h1>
+<img src="{{image_path}}">
+<p>{{ scanned_value['raw_text'] }}</p>
+
+
+{% endblock %}

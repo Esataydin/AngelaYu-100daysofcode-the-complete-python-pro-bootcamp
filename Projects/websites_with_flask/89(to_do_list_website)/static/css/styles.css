@@ -1,0 +1,52 @@
+body{
+    background: #FFE3E1;
+    margin-top:20px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0;
+}
+.card {
+    margin-bottom: 30px;
+    background-color:#FFD1D1;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.57rem;
+}
+
+.note-has-grid {
+    padding-top: 0.7%;
+}
+
+.all-category{
+    padding-top: 1%;
+}
+
+.note-has-grid .single-note-item .side-stick {
+     position: absolute;
+     width: 3px;
+     height: 35px;
+     left: 0;
+     background-color: rgba(82, 95, 127, .5)
+}
+
+ @media (max-width:767.98px) {
+     .note-has-grid .single-note-item {
+         max-width: 100%
+     }
+ }
+
+ @media (max-width:991.98px) {
+     .note-has-grid .single-note-item {
+         max-width: 216px
+     }
+ }

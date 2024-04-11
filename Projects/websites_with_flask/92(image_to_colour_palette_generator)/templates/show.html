@@ -1,0 +1,22 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+
+{{ super() }}
+<link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+{% endblock %}
+
+
+{% block title %}Hex Codes{% endblock %}
+
+{% block content %}
+<h1>Hex Codes</h1>
+<img src="{{image_path}}">
+<div class="d-flex gap-2 justify-content-center py-5">
+        {% for color in colors %}
+        <span class="badge bg-primary-subtle rounded-pill" style="background-color: {{color}}">{{color}}</span>
+        {% endfor %}
+</div>
+
+
+{% endblock %}

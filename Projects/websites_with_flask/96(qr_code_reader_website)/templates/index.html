@@ -1,0 +1,14 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+
+{{ super() }}
+<link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+{% endblock %}
+
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<h1>Home Page</h1>
+{% endblock %}

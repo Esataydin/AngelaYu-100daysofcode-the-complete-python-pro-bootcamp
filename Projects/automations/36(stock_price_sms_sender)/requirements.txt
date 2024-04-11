@@ -1,0 +1,4 @@
+newsapi==0.1.1
+newsapi-python==0.2.7
+Requests==2.31.0
+twilio==8.10.1

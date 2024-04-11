@@ -1,0 +1,21 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+
+{{ super() }}
+<link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+{% endblock %}
+
+
+{% block title %}Image to HEX code{% endblock %}
+
+{% block content %}
+
+    <h1>Upload new File</h1>
+    <form method=post enctype=multipart/form-data>
+      <input type="file" accept=".jpg,.jpeg,.png" name="file" />
+        <p>(jpg, jpeg, png)</p>
+        <button type=submit value=Upload>Upload</button>
+    </form>
+<img src="{{image_path}}">
+{% endblock %}

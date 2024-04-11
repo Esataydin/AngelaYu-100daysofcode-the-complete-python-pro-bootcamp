@@ -1,0 +1,2 @@
+pdfquery==0.4.3
+google-cloud-texttospeech==2.14.1
